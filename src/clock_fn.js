@@ -11,6 +11,12 @@ export default function Clock_fn(){
              ,1000 )
         )
         return(
-            <div>{date.toLocaleTimeString()}</div>
+            <div>
+                <p>clock in function</p>
+                <p>
+                {date.toLocaleTimeString()}
+                </p>
+               
+                </div>
         )
 }

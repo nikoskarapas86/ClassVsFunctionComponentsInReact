@@ -21,7 +21,8 @@ export default class Clock_cl extends Component {
         console.log('render')
         return (
             <div>
-                {this.state.date.toLocaleTimeString()}
+                <p>clock in class</p>
+                <p>{this.state.date.toLocaleTimeString()}</p>         
             </div>
         )}
 }
